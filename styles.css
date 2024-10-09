@@ -64,6 +64,12 @@ h1{
     font-size: 60px;
     margin-bottom: 24px;
 }
+h2{
+    color:#025157;
+    font-family: "Alegreya", serif;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
 h4{
     color: #46484c;
     font-family: "Slabo 27px", serif;
@@ -73,4 +79,67 @@ h4{
 p{
     color: #8b8b8bcc;
     margin-top: 15px;
+}
+
+
+.how-does-it-work{
+    height: 40rem;
+    display: block;
+    background-color: #f8f7ee;
+}
+.how-does-it-work button{
+    background-color: #025157;
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    padding: 12px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    height: 45px;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    margin-top: 6px;
+    
+}
+.how-does-it-work a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.how-does-it-work p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.cards{
+    margin: 0 10rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+.card{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 2px solid #290f0f;
+    border-radius: 5px;
+}
+.card img{
+    height:100%;
+}
+.card-image{
+    height: 6rem;
+}
+.card-description{
+    height: 15rem;
 }
