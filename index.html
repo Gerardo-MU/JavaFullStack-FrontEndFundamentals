@@ -1,103 +1,59 @@
 <!DOCTYPE html>
-<!--Esta etiqueta informa al explorador la versión de mi archivo, en este caso HTML5-->
-<html lang="es">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matcha</title>
-
-    <style>
-  
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.roboto-black {
-  font-family: "Roboto", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-
-body{
-    margin: 0;
-    padding:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
-}
-
-.banner{
-    width:800px;
-    height: 400px;
-    background-image: url('https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-    background-size:cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 20px;
-    box-sizing: border-box;
-    color: white;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-}
-
-.banner h1{
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    
-}
-
-.banner h2{
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-.banner button{
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #ff6600;
-    color: white;
-    border-radius: 5px;
-    cursor:pointer;
-    transition: background-color 0.3s;
-}
-
-.banner button:hover{
-    background-color: #ff8533;
-}
-
-        
-
-       
-    </style>
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Postwork-2</title>
 </head>
-
 <body>
-    <div class="banner">
-        <h1 class="titular">Oferta Especial</h1>
-        <h2>50% de descuento en todos los productos</h2>
-        <button>Comprar ahora</button>
-    </div>
+    <header>
+        <h1>Java Front-End Fundamentals Postwork 2</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca">Acerca de</a>
+            <a href="#conoce-mas">Conoce más</a>
+            <a href="#referencias">Referencias</a>
+        </nav>
+    </header>
+    <main>
+        <section class="introduccion">
+            <h2>La Importancia de las Unidades de Medida en HTML</h2>
+            <p>
+                Las unidades de medida en HTML son fundamentales para definir el diseño y la presentación de una página web. Estas unidades permiten a los desarrolladores y diseñadores especificar dimensiones, espacios y tamaños de texto de manera precisa. Usar las unidades adecuadas no solo mejora la estética del sitio, sino que también asegura que la interfaz sea accesible y responsiva en diferentes dispositivos y tamaños de pantalla. Comprender las diferencias entre las unidades absolutas y relativas es clave para lograr un diseño fluido y adaptable.
+            </p>
+        </section>
+        <section class="informativo">
+            <div class="columnas">
+                <div class="column">
+                    <h3>Pixeles (px)</h3>
+                    <p>
+                        Los píxeles son una unidad de medida absoluta que representa un punto en la pantalla. Se utilizan comúnmente para establecer el tamaño de elementos como imágenes, márgenes y fuentes. Aunque los píxeles proporcionan un control preciso sobre el diseño, su uso excesivo puede resultar en un diseño poco flexible. En dispositivos con diferentes resoluciones y tamaños de pantalla, un diseño basado exclusivamente en píxeles puede no escalar adecuadamente, lo que podría afectar la experiencia del usuario.
+                    </p>
+                </div>
+            
+                <div class="column">
+                    <h3>Rem (rem)</h3>
+                    <p>
+                        La unidad rem (root em) es una medida relativa que se basa en el tamaño de la fuente del elemento raíz del documento (normalmente el <html>). Esto significa que si se ajusta el tamaño de la fuente raíz, todos los elementos que utilizan rem se ajustarán proporcionalmente. Esta característica hace que los rem sean ideales para crear diseños responsivos y accesibles, ya que permiten que los usuarios ajusten el tamaño del texto según sus preferencias sin romper el diseño general de la página.
+                    </p>
+                </div>
+             </div>
+        </section>
+        <section class="conclusion">
+            <h3>Conclusión</h3>
+            <p>
+                En resumen, las unidades de medida relativas, como REM, son esenciales para el diseño web moderno. Su capacidad para adaptarse a las configuraciones del usuario las convierte en una opción superior para garantizar la accesibilidad y la responsividad. Al utilizar REM, los diseñadores pueden crear interfaces que no solo se ven bien en una variedad de dispositivos, sino que también mejoran la experiencia del usuario al permitir ajustes en el tamaño de la fuente. Esta flexibilidad no solo beneficia a los usuarios con necesidades específicas, sino que también ayuda a crear un diseño más armonioso y adaptable a largo plazo.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados. Gerardo Martinez Urbina</p>
+    </footer>
 </body>
-
 </html>
