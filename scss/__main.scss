@@ -1,0 +1,139 @@
+@import 'variables';
+@import 'typography';
+@import 'components';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family-sans;
+}
+
+header {
+    background-color: $light-bg;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    img {
+        height: 60px;
+        margin-right: 10px;
+    }
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+main {
+    margin-top: 285px;
+    text-align: center;
+}
+
+figure {
+    margin-top: 32px;
+}
+
+figure.intro > img {
+    width: 70%;
+}
+
+.promo {
+    display: flex;
+    max-width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.explanatory-video {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 120px;
+        margin-top: 10px;
+    }
+}
+
+.success-stories {
+    background-color: $success-bg;
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .overview {
+        flex: 2;
+        padding-right: 100px;
+
+        h2 {
+            font-size: 51px;
+            line-height: 61px;
+        }
+
+        p {
+            color: $dark-color;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .stories-carousel {
+        flex: 1;
+    }
+}
+
+.features {
+    background-color: $primary-color;
+    padding: 5% 10%;
+    display: grid;
+    grid-template: repeat(2, 330px) / repeat(2, 1fr);
+}
+
+.try-matcha {
+    background-color: $success-bg;
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+
+    .signup-form {
+        margin: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.how-does-it-work {
+    background-color: #fff;
+    padding: 5% 10%;
+    text-align: center;
+}

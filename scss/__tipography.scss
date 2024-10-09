@@ -1,0 +1,21 @@
+// __typography.scss
+
+@import url("https://fonts.googleapis.com/css?family=Alegreya:900%7COpen+Sans%7CSlabo+27px&display=swap");
+
+$font-family-base: Arial, Helvetica, sans-serif;
+$font-family-serif: "Alegreya", serif;
+$font-family-slab: "Slabo 27px", serif;
+
+h1 {
+    font-family: $font-family-serif;
+    font-size: 60px;
+    color: $color-secondary;
+    margin-bottom: 24px;
+}
+
+h4 {
+    font-family: $font-family-slab;
+    font-size: 20px;
+    color: #46484c;
+    margin-bottom: 30px;
+}
