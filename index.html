@@ -1,83 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--Esta etiqueta informa al explorador la versión de mi archivo, en este caso HTML5-->
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
-        
     <title>Matcha</title>
+
     <style>
-        .roboto-light{
-            font-family: "Roboto", sans-serif;
-            font-weight: 400;
-            font-style: Normal;
-        }
-        .roboto-normal{
-            font-family: "Roboto", sans-serif;
-            font-weight: 600;
-            font-style: Normal;
-        }
-        .roboto-heavy{
-            font-family: "Roboto", sans-serif;
-            font-weight: 600;
-            font-style: Normal;
-        }
-        h1{
-            color: #1811f4;
-            font-size: 32px;
-        }
-        body{
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-        }
-        .banner{
-            width: 800px;
-            height: 400px;
-            background-image: url('https://images.unsplash.com/photo-1726108397211-6507220a6a21?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-            background-size: cover;
-            background-position: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: flex-start;
-            padding: 20px;
-            box-sizing: border-box;
-            color: white;
-            text-shadow: 2px 2px 4px rgb(0,0,0,0.5);
-        }
-        .banner h1{
-            font-size: 2.5em;
-            margin-bottom: 10px;
-        }
-        .banner h2{
-            font-size: 1.5em;
-            margin-bottom: 20px;
-        }
-        .banner button{
-            padding: 10px 20 px;
-            font-size: 1em;
-            background-color: #ff6000;
-            color: white;
-            cursor: pointer;
-            transition: background-color 0.3s;
-        }
-        .banner button:hover{
-            background-color: #ff8533;
-        }
+  
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+body{
+    margin: 0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.banner{
+    width:800px;
+    height: 400px;
+    background-image: url('https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.banner h1{
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    
+}
+
+.banner h2{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.banner button{
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #ff6600;
+    color: white;
+    border-radius: 5px;
+    cursor:pointer;
+    transition: background-color 0.3s;
+}
+
+.banner button:hover{
+    background-color: #ff8533;
+}
+
+        
+
+       
     </style>
 </head>
+
 <body>
     <div class="banner">
         <h1 class="titular">Oferta Especial</h1>
-        <h2>50% de descuento en productos</h2>
+        <h2>50% de descuento en todos los productos</h2>
         <button>Comprar ahora</button>
     </div>
 </body>
+
 </html>
