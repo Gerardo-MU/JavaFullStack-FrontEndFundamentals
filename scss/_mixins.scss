@@ -1,0 +1,40 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin responsive-max-md {
+    @media (max-width: $breakpoint-md) {
+      @content;
+    }
+}
+@mixin responsive-min-md {
+    @media (min-width: $breakpoint-md) {
+      @content;
+    }
+}
+@mixin responsive-max-lg {
+    @media (max-width: $breakpoint-lg) {
+      @content;
+    }
+}
+@mixin responsive-min-lg {
+    @media (min-width: $breakpoint-lg) {
+      @content;
+    }
+}
+@mixin image-banner-responsive{
+    img{ width: 100%; height: auto; margin: 1rem 0 1rem 0;}
+}
+@mixin image-banner-md{
+    img{ width: 700px; height: auto; margin: 1rem 0 1rem 0;}
+}
+@mixin image-banner-lg{
+    img{ width: 80%; height: auto; margin: 1rem 0 1rem 0;}
+}
+@mixin image-md{
+    img {width: 450px; height: auto;}
+}
+@mixin image-md-responsive{
+    img {width: 100%; height: auto;}
+}
