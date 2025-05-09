@@ -1,13 +1,21 @@
-# BEDU Java: Front End Fundamentals
-## _Repositorio de trabajo_
+# Diplomado en Programación Java: Front End
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=Master)](https://travis-ci.org/joemccann/dillinger)
+---
 
-El repositorio es considerado un cuaderno de trabajo donde se realizó las modificaciones de la página de [Matcha](https://bedu-fef.netlify.app/) el cual se encuentra en la rama Master cada una de las modificaciones.
+## Objetivo
+Desarrollar un sitio web de solo lectura que implemente los temas vistos en el módulo, tales como Control de versiones, Semántica del Sitio, y Posicionamiento de elementos.
 
-## Características
+## Tecnologías utilizadas
+- **HTML5**
+- **Git**
+- **CSS Modules + Sass**
+- **BOOTSTRAP** y **Flexbox** para sitio responsivo
 
-Durante este módulo, se implementaron distintas técnicas que permitieron aplicar los conocimeintos obtenidos en cada una de las sesiones, tales como: 
+## Descripción
+
+El repositorio es considerado un cuaderno de trabajo donde se partio del siguiente modelo de página nombrada como  [Matcha](https://bedu-fef.netlify.app/) el cual se encuentra en la rama Master cada una de las modificaciones.
+
+Durante este módulo, se implementaros los conceptos vistos en clase y este proyecto cumple con los siguiente: 
 
 - Implementa etiquetas semánticas y modelo de caja
 - Se utilizan téctincas de diseño de bloques como Flexbox y CSS Grid
@@ -15,31 +23,20 @@ Durante este módulo, se implementaron distintas técnicas que permitieron aplic
 - Framework Bootstrap
 - Utiliza precompilador de CSS Saas
 
-## Actividades
-
-Durante este módulo, se realizaron disttintas actividades denominadas 'Postwork' de las cuales de tiene un branch para cada uno. Cada uno cumple con sus respectivos objetivos y por esta razón se tienen en diferentes ramas para no afectar el progreso de la rama [Master](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/Master):
+Para la estructura de este proyecto y cumplir con el punto relacionado con el control de versiones, la rama [Master](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals) es el proyecto final con sus respectivos 'commits', y además se crearon las siguientes ramas que contienen las tareas de clase:
 
 - [Post Work 1](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-1) 
-- [Post Work 2](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-2)
-- [Post Work 3](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-3)
-- [Post Work 4](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-4)
-- [Post Work 5](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-5)
-- [Post Work 6](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-6)
+- [Post Work 2](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-2) 
+- [Post Work 3](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-3) 
+- [Post Work 4](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-4) 
+- [Post Work 5](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-5) 
+- [Post Work 6](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-6) 
 - [Post Work 7](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-7) 
-- [Post Work 7](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-8) 
+- [Post Work 8](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-8)
 
-## Proyecto
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=Proyecto)](https://travis-ci.org/joemccann/dillinger)
+## Vista previa
+Página de inicio:
 
-Puedes consultar el link de la página de este proyecto: [Healty Life Forum](https://gmu-frontendfundamentals-proyect.netlify.app/)
+![Página de inicio](https://raw.githubusercontent.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/refs/heads/Master/screenshots/sc1.png)
 
-El proyecto de éste módulo se encuentra en la rama 'Proyecto' y en el cual evaluará los conocimientos necesario para aprovar este módulo y deberá cumplir con los requisitos de la rubrica estableciada por el equipo de BEDU y objetivamente se evaluará los siguientes criterios: 
-- Control de versiones 
-- Semántica del Sitio 
-- Nomenclatura 
-- Posicionamiento de elementos 
-- Estructura del proyecto 
-- Adaptabilidad  
-
-El proyecto será un sitio web que cumpla con el diseño proporcionado por el 'Experto' y eel cual se apĺican las técnicas que se implementaron en cada una de las ramas PostWork del repositorio y en la rama 'Master'
-
+Puede consultar la página puede hacer clic [aquí](https://gmu-frontendfundamentals-proyect.netlify.app/)
