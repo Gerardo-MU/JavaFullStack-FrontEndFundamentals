@@ -37,8 +37,7 @@ Para la estructura de este proyecto y cumplir con el punto relacionado con el co
 - [Post Work 8](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-8)
 
 ## Vista previa
-Página de inicio:
+A continuación se presentas la página de inic io del sitio desarrollado, puede consultar la página al hacer clic [aquí](https://gmu-frontendfundamentals-proyect.netlify.app/)
+
 
 ![Página de inicio](https://raw.githubusercontent.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/refs/heads/Master/screenshots/sc1.png)
-
-Puede consultar la página puede hacer clic [aquí](https://gmu-frontendfundamentals-proyect.netlify.app/)
