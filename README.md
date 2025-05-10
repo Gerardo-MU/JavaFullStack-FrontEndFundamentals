@@ -10,14 +10,14 @@ Desarrollar un sitio web de solo lectura que implemente los temas vistos en el m
 ## Tecnologías utilizadas
 - **HTML5**
 - **Git**
-- **CSS Modules + Sass**
+- **CSS** y **SASS** para optimizar estilos
 - **BOOTSTRAP** y **Flexbox** para sitio responsivo
 
 ## Descripción
 
 El repositorio es considerado un cuaderno de trabajo donde se partio del siguiente modelo de página nombrada como  [Matcha](https://bedu-fef.netlify.app/) el cual se encuentra en la rama Master cada una de las modificaciones.
 
-Durante este módulo, se implementaros los conceptos vistos en clase y este proyecto cumple con los siguiente: 
+Durante este módulo, se implementaron los conceptos vistos en clase y este proyecto cumple con los siguiente: 
 
 - Implementa etiquetas semánticas y modelo de caja
 - Se utilizan téctincas de diseño de bloques como Flexbox y CSS Grid
@@ -37,7 +37,6 @@ Para la estructura de este proyecto y cumplir con el punto relacionado con el co
 - [Post Work 8](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/tree/PostWork-8)
 
 ## Vista previa
-A continuación se presentas la página de inic io del sitio desarrollado, puede consultar la página al hacer clic [aquí](https://gmu-frontendfundamentals-proyect.netlify.app/)
-
+A continuación se presentas la página de inicio del sitio desarrollado, puede consultar la página al hacer clic [aquí](https://gmu-frontendfundamentals-proyect.netlify.app/)
 
 ![Página de inicio](https://raw.githubusercontent.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals/refs/heads/Master/screenshots/sc1.png)
