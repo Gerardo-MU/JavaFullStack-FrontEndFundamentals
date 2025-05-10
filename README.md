@@ -23,7 +23,7 @@ Durante este módulo, se implementaron los conceptos vistos en clase y este proy
 - Se utilizan téctincas de diseño de bloques como Flexbox y CSS Grid
 - CSS Responsive usando MediaQuery's
 - Framework Bootstrap
-- Utiliza precompilador de CSS Saas
+- Utiliza precompilador de CSS
 
 Para la estructura de este proyecto y cumplir con el punto relacionado con el control de versiones, la rama [Master](https://github.com/Gerardo-MU/JavaFullStack-FrontEndFundamentals) es el proyecto final con sus respectivos 'commits', y además se crearon las siguientes ramas que contienen las tareas de clase:
 
